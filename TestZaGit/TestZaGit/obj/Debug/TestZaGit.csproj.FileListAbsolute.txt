@@ -1,0 +1,8 @@
+D:\RPA22\TestZaGit\TestZaGit\bin\Debug\TestZaGit.exe.config
+D:\RPA22\TestZaGit\TestZaGit\bin\Debug\TestZaGit.exe
+D:\RPA22\TestZaGit\TestZaGit\bin\Debug\TestZaGit.pdb
+D:\RPA22\TestZaGit\TestZaGit\obj\Debug\TestZaGit.csproj.AssemblyReference.cache
+D:\RPA22\TestZaGit\TestZaGit\obj\Debug\TestZaGit.csproj.SuggestedBindingRedirects.cache
+D:\RPA22\TestZaGit\TestZaGit\obj\Debug\TestZaGit.csproj.CoreCompileInputs.cache
+D:\RPA22\TestZaGit\TestZaGit\obj\Debug\TestZaGit.exe
+D:\RPA22\TestZaGit\TestZaGit\obj\Debug\TestZaGit.pdb
