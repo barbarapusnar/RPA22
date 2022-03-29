@@ -10,7 +10,7 @@ namespace DrugiTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello git hub from console");
+            Console.WriteLine("Hello git hub from consolexxx");
             Console.ReadLine();
         }
     }
