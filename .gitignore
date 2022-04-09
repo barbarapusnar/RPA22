@@ -3,3 +3,9 @@
 ################################################################################
 
 /VajaCodeFirst/packages
+/VajaCodeFirst/VajaCodeFirst/App_Data
+/VajaCodeFirst/VajaCodeFirst/bin
+/VajaCodeFirst/VajaCodeFirst/obj/Debug
+/VajaCodeFirst/VajaCodeFirst/Content
+/VajaCodeFirst/VajaCodeFirst/fonts
+/VajaCodeFirst/VajaCodeFirst/Migrations
