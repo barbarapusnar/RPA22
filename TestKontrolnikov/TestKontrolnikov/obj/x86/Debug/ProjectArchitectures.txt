@@ -1,0 +1,1 @@
+D:\RPA22\TestKontrolnikov\TestKontrolnikov\TestKontrolnikov.csproj;x86

@@ -1,0 +1,7 @@
+D:\RPA22\AsinhroniTaski\AsinhroniTaski\bin\Debug\AsinhroniTaski.exe.config
+D:\RPA22\AsinhroniTaski\AsinhroniTaski\bin\Debug\AsinhroniTaski.exe
+D:\RPA22\AsinhroniTaski\AsinhroniTaski\bin\Debug\AsinhroniTaski.pdb
+D:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\AsinhroniTaski.csproj.AssemblyReference.cache
+D:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\AsinhroniTaski.csproj.CoreCompileInputs.cache
+D:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\AsinhroniTaski.exe
+D:\RPA22\AsinhroniTaski\AsinhroniTaski\obj\Debug\AsinhroniTaski.pdb

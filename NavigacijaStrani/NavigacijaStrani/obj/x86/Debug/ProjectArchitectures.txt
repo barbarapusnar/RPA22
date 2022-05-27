@@ -1,0 +1,1 @@
+D:\RPA22\NavigacijaStrani\NavigacijaStrani\NavigacijaStrani.csproj;x86

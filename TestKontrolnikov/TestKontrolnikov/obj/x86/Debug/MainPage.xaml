@@ -1,0 +1,103 @@
+﻿<Page
+    x:Class="TestKontrolnikov.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestKontrolnikov"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="20,20,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!--test enega kontrolnika-->
+        <TextBlock Text="TimePicker" VerticalAlignment="Center" Grid.Row="0" Margin="20,0,0,20"/>
+        <TimePicker Grid.Row="0" Grid.Column="1" ClockIdentifier="12HourClock"
+                    Margin="20,0,0,20"/>
+        <!--konec enega kotnrolnika-->
+        <TextBlock Text="CalendarDatePicker" VerticalAlignment="Center" Grid.Row="1" Margin="20,0,0,20"/>
+        <CalendarDatePicker Grid.Row="1" Grid.Column="1" 
+                            PlaceholderText="Vnesi datum"
+                            Margin="20,0,0,20"/>
+
+        <TextBlock Text="Flyout" VerticalAlignment="Center" Grid.Row="2" Margin="20,0,0,20"/>
+        <Button Grid.Row="2" Grid.Column="1" 
+                            Content="Prileti"
+                            Margin="20,0,0,20">
+            <Button.Flyout>
+                <Flyout x:ConnectionId='4' x:Name="mojFlyout">
+                    <StackPanel>
+                     <TextBlock Text="Pomembne novice, zato sem priletel"/>
+                     <Button x:ConnectionId='5' x:Name="Innerbutton" HorizontalAlignment="Right"
+                            Content="OK"                          />
+                    </StackPanel>
+                </Flyout>
+            </Button.Flyout>
+        </Button>
+        <TextBlock Text="FlyoutMenu" Grid.Row="3" Margin="20,0,0,20" VerticalAlignment="Center"/>
+        <Button Grid.Row="3" Grid.Column="1"
+                Content="Menu" Margin="20,0,0,20">
+            <Button.Flyout>
+                <MenuFlyout Placement="Bottom">
+                    <MenuFlyoutItem Text="Element1"/>
+                    <MenuFlyoutItem Text="Element2"/>
+                    <MenuFlyoutSeparator/>
+                    <MenuFlyoutSubItem Text="Element3">
+                        <MenuFlyoutItem Text="Element4"/>
+                        <MenuFlyoutSubItem Text="Elemnt5">
+                            <MenuFlyoutItem Text="Element6"/>
+                            <MenuFlyoutItem Text="Element7"/>
+                        </MenuFlyoutSubItem>
+                    </MenuFlyoutSubItem>
+                    <ToggleMenuFlyoutItem Text="Element8"/>
+                </MenuFlyout>
+            </Button.Flyout>
+        </Button>
+<!--togglebutton in toggleswitch-->
+        <TextBlock Text="ToggleButton" Grid.Row="4" Margin="20,0,0,20" VerticalAlignment="Center"/>
+        <ToggleButton x:ConnectionId='2' Name="mojTogglebutton" Grid.Row="4" Grid.Column="1" 
+                      Content="Premium opcija"
+                      Margin="20,0,0,20" IsThreeState="True"/>
+        <TextBlock Text="ToggleSwitch" Grid.Row="5" Margin="20,0,0,20" VerticalAlignment="Center"/>
+        <ToggleSwitch Grid.Row="5" Grid.Column="1" Margin="20,0,0,20">
+            <ToggleSwitch.OffContent>
+                <TextBlock Text="Sem OFF"/>
+            </ToggleSwitch.OffContent>
+            <ToggleSwitch.OnContent>
+                <TextBlock Text="Sem ON"/>
+            </ToggleSwitch.OnContent>
+        </ToggleSwitch>
+
+        <TextBlock Text="Slider" Grid.Row="6" Margin="20,0,0,20" 
+                   VerticalAlignment="Center"/>
+        <Slider Grid.Row="6" Grid.Column="1" Margin="20,0,0,20" Maximum="100" Minimum="0"
+                Width="200"/>
+        <TextBlock Text="ProgressBar" Grid.Row="7" Margin="20,0,0,20" 
+                   VerticalAlignment="Center"/>
+        <ProgressBar Grid.Row="7" Grid.Column="1" Margin="20,0,0,20" Maximum="100" 
+                Width="200" />
+        <TextBlock Text="Autosuggest" Grid.Row="8" Margin="20,0,0,20" 
+                   VerticalAlignment="Center"/>
+        <AutoSuggestBox x:ConnectionId='3' Name="mojASB" Grid.Row="8" Grid.Column="1" Margin="20,0,0,20"
+                        QueryIcon="Find"
+                        PlaceholderText="Poišči"
+                        Width="200"
+                                                        />
+    </Grid>
+</Page>
+

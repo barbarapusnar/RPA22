@@ -1,0 +1,14 @@
+﻿<Application
+    x:Class="StiliPredloge.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StiliPredloge">
+    <Application.Resources>
+        
+        <Style x:Key="stilGumba" TargetType="Button">
+            <Setter Property="Background" Value="Blue"/>
+            <Setter Property="FontFamily" Value="Arial Black"/>
+            <Setter Property="FontSize" Value="36"/>
+        </Style>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsinhroniTaski", "AsinhroniTaski\AsinhroniTaski.csproj", "{3D1A290D-BFDB-494B-A44D-19B92289995B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D1A290D-BFDB-494B-A44D-19B92289995B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1A290D-BFDB-494B-A44D-19B92289995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1A290D-BFDB-494B-A44D-19B92289995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1A290D-BFDB-494B-A44D-19B92289995B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5237CB80-76ED-4967-A20B-0731DD9DAFE6}
+	EndGlobalSection
+EndGlobal
