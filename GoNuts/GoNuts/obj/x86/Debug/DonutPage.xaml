@@ -9,7 +9,23 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="Red">
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+      <Image Source="/Assets/white-logo.png" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Original Glazed count:" Grid.Row="1" Grid.Column="0" Foreground="White"
+                 Margin="20,20,20,0" FontSize="18"/>
+        <TextBlock Text="Speedway special count:" Grid.Row="2" Grid.Column="0" Foreground="White"
+                 Margin="20,20,20,0" FontSize="18"/>
+        <Slider Grid.Row="1" Grid.Column="1" Maximum="24" Margin="20,20,20,0"/>
+        <Slider Grid.Row="2" Grid.Column="1" Maximum="24" Margin="20,20,20,0"/>
     </Grid>
 </Page>
 
