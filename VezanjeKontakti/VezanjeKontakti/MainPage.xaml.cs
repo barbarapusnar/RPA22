@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -23,6 +24,7 @@ namespace VezanjeKontakti
     public sealed partial class MainPage : Page
     {
         List<Icon> ikone;
+        ObservableCollection<Contact> Stiki;
         public MainPage()
         {
             this.InitializeComponent();
@@ -33,7 +35,20 @@ namespace VezanjeKontakti
             ikone.Add(new Icon { IkonaPot = "Assets/female-01.png" });
             ikone.Add(new Icon { IkonaPot = "Assets/female-02.png" });
             ikone.Add(new Icon { IkonaPot = "Assets/female-03.png" });
+            Stiki = new ObservableCollection<Contact>();
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string avatar = ((Icon)(cboAvatar.SelectedValue)).IkonaPot;
+            string ime = txtIme.Text;
+            string priimek = txtPriimek.Text;
+            Contact x = new Contact();
+            x.Ime = ime;
+            x.Priimek = priimek;
+            x.AvatarPot = avatar;
+            Stiki.Add(x);
         }
     }
 }

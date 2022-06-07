@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-31T07:24:58.713</Modified>
+      <Modified>2022-06-03T06:22:22.015</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\VezanjeKontakti.exe">
       <PackagePath>entrypoint\VezanjeKontakti.exe</PackagePath>
-      <Modified>2022-05-31T07:24:57.973</Modified>
+      <Modified>2022-06-03T06:22:20.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -110,15 +110,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\VezanjeKontakti.xr.xml">
       <PackagePath>VezanjeKontakti.xr.xml</PackagePath>
-      <Modified>2022-05-31T07:23:36.671</Modified>
+      <Modified>2022-06-03T06:18:59.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-31T07:23:36.675</Modified>
+      <Modified>2022-06-03T06:22:20.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-05-31T07:24:57.894</Modified>
+      <Modified>2022-06-03T06:22:20.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -126,11 +126,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-31T07:23:36.891</Modified>
+      <Modified>2022-06-03T06:22:20.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\Core\VezanjeKontakti.exe">
       <PackagePath>VezanjeKontakti.exe</PackagePath>
-      <Modified>2022-05-31T07:24:58.702</Modified>
+      <Modified>2022-06-03T06:22:22.015</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

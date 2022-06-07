@@ -10,7 +10,6 @@ D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\Core\VezanjeKontakti.exe
 D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\VezanjeKontakti.build.appxrecipe
 D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\System.Runtime.dll
 D:\RPA22\VezanjeKontakti\VezanjeKontakti\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-D:\RPA22\VezanjeKontakti\VezanjeKontakti\obj\x86\Debug\VezanjeKontakti.csproj.AssemblyReference.cache
 D:\RPA22\VezanjeKontakti\VezanjeKontakti\obj\x86\Debug\App.g.i.cs
 D:\RPA22\VezanjeKontakti\VezanjeKontakti\obj\x86\Debug\App.g.cs
 D:\RPA22\VezanjeKontakti\VezanjeKontakti\obj\x86\Debug\MainPage.g.i.cs
