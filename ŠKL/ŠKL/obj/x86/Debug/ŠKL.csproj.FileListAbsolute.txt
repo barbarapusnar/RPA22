@@ -43,3 +43,8 @@ D:\RPA22\ŠKL\ŠKL\obj\x86\Debug\qualifiers.txt.intermediate
 D:\RPA22\ŠKL\ŠKL\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\RPA22\ŠKL\ŠKL\obj\x86\Debug\ProjectArchitectures.txt
 D:\RPA22\ŠKL\ŠKL\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
+D:\RPA22\ŠKL\ŠKL\bin\x86\Debug\EkipaControl.xbf
+D:\RPA22\ŠKL\ŠKL\obj\x86\Debug\EkipaControl.g.i.cs
+D:\RPA22\ŠKL\ŠKL\obj\x86\Debug\EkipaControl.g.cs
+D:\RPA22\ŠKL\ŠKL\obj\x86\Debug\EkipaControl.xaml
+D:\RPA22\ŠKL\ŠKL\obj\x86\Debug\EkipaControl.xbf
